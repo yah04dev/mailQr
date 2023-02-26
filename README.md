@@ -7,9 +7,9 @@ i built a python tool with tkinter gui that the administration guy enter the stu
 because the emails provider are diffrent between univ and other you need to import your data to the Database using ***csv*** and ***sqlite studio*** using ***tools>import***
 you can convert all database types to csv and even json with a lot of online and offline tools
 the database table named ***mailiste*** and it contains
-	**"id"	TEXT,**
-	**"email"	INTEGER,**
-	**"passd"	INTEGER**
+	**"id"	INTEGER,**
+	**"email"	TEXT,**
+	**"passd"	TEXT**
 ## REQUIRMENTS
 to use mailQr u need to have
 windows os with ms paint configured with qr printer settings and driver as default (you must configure settings from ms paint)
